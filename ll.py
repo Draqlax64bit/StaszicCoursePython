@@ -19,4 +19,22 @@ def is_palindrom(text):
     return False
 
 
-print(is_palindrom('Atak kata'))
+#print(is_palindrom('Atak kata'))
+
+l = [1,2,3,8,5,6]
+t=(1,2,3)
+d={1:'a',2:'b',3:'c'}
+
+# print(d[1])
+# d.update({1:'gg'})
+# print(d[1])
+# print(l[0])
+#
+# print(l[0])
+# del d[1]
+# l.append([1,2,3])
+# l[3].append([1,2,3])
+# l[3][3].append([1,2,3])
+# print(2*(l+l))
+
+print(sorted(l))
